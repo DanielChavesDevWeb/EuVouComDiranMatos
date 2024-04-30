@@ -26,8 +26,8 @@ function sendMsg(){
     } else {
         // Construir o link do WhatsApp com o número de telefone, assunto e mensagem
         let numeroTelefone = "557399354445"; // Substitua pelo número de telefone desejado
-        let mensagemEncoded = encodeURIComponent(`*Assunto:* ${assunto} ${msg}`); // Codifica a mensagem para ser incluída na URL
-        let linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${mensagemEncoded} _blank`;
+        let mensagemEncoded = encodeURIComponent(`*Assunto:* ${assunto}\n\n *Mensagem* ${msg}`); // Codifica a mensagem para ser incluída na URL
+        let linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${mensagemEncoded}`;
 
         // Redirecionar o usuário para o WhatsApp com a mensagem pré-preenchida
         window.open(linkWhatsApp, '_blank');
