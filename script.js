@@ -12,19 +12,24 @@ function tradeBtn(){
         btn.classList.remove('fa-x')
     }
 }
-// Função para verificar a largura da tela e trocar o src da imagem conforme necessário
-function alterarSrcImagem() {
-    const larguraDaTela = window.innerWidth; // Obtém a largura da tela
-    const img = document.getElementById('profile-img'); // Obtém a referência para a imagem
 
-    // Verifica se a largura da tela é menor que 1400px
-    if (larguraDaTela < 1400) {
-        img.src = 'assets/profile-2.png'; // Substitui o src da imagem pela nova imagem
+// configurando mensagem personalizada
+
+let btnMsg = document.querySelector("#btn-mensage").addEventListener("click", sendMsg)
+
+function sendMsg(){
+    let assunto = document.querySelector("#assunto").value;
+    let msg = document.querySelector("#mensagem").value;
+
+    if(assunto.length === 0 || msg.length === 0){
+        alert("ERRO! Preencha o formulário.");
     } else {
-        img.src = 'assets/profile.png'; // Retorna ao src original se a largura da tela for maior ou igual a 1400px
+        // Construir o link do WhatsApp com o número de telefone, assunto e mensagem
+        let numeroTelefone = "557399354445"; // Substitua pelo número de telefone desejado
+        let mensagemEncoded = encodeURIComponent(`*Assunto:* ${assunto} ${msg}`); // Codifica a mensagem para ser incluída na URL
+        let linkWhatsApp = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${mensagemEncoded} _blank`;
+
+        // Redirecionar o usuário para o WhatsApp com a mensagem pré-preenchida
+        window.open(linkWhatsApp, '_blank');
     }
 }
-
-// Chama a função quando a página é carregada e quando a janela é redimensionada
-window.onload = alterarSrcImagem;
-window.onresize = alterarSrcImagem;
