@@ -98,6 +98,12 @@
     z-index: 9999;
     overflow-y: auto;
   }
+  #closeProject{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 23px;
+  }
   footer{
     color: white;
     background-color: #22567c;
@@ -159,6 +165,10 @@
     }
     .card{
       max-width: 300px;
+    }
+    .box{
+      max-width: 370px;
+      border-radius: 10px;
     }
   }
   @media (min-width: 768px) {
