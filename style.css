@@ -1,3 +1,16 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.p-font{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+.title-font{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
 .primary-color{
     color: #22567c;
 }
@@ -222,6 +235,10 @@
   .card{
     max-width: 350px;
   }
+  .box{
+    max-width: 700px;
+    border-radius: 10px;
+  }
   }
   @media (min-width: 992px) {
     .col-xxl-5 h2, .col-xxl-5 .title-secondary{
@@ -271,6 +288,10 @@
   .card{
     max-width: 400px;
   }
+  .box{
+    max-width: 900px;
+    border-radius: 10px;
+  }
   }
   @media (min-width: 1200px) {
     .col-xxl-5 h2, .col-xxl-5 .title-secondary{
@@ -310,5 +331,9 @@
     }
     .card{
       max-width: 450px;
+    }
+    .box{
+      max-width: 1100px;
+      border-radius: 10px;
     }
   }

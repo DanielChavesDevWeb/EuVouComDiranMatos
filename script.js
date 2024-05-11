@@ -9,8 +9,8 @@ function tradeBtn() {
         btn.classList.remove('fa-bars')
         btn.classList.add('fa-x')
     } else if (btn.classList.contains('fa-x')) {
-        btn.classList.add('fa-bars')
         btn.classList.remove('fa-x')
+        btn.classList.add('fa-bars')
     }
 }
 //animações do site intersectionObserver eixoX
