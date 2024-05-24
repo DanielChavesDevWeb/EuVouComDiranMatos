@@ -130,7 +130,8 @@ body{
   }
   @media (min-width: 375px) {
     .badge{
-      margin: -35px;
+      font-size: 10px;
+
     }
     .col-xxl-5 h2, .col-xxl-5 .title-secondary{
         text-align: center;
