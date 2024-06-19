@@ -128,6 +128,10 @@ body{
     font-size: 30px;
     color: white;
   }
+  .logo-diran {
+    filter: invert(100%);
+    width: 110px;
+}
   @media (min-width: 375px) {
     .badge{
       font-size: 10px;
@@ -227,7 +231,7 @@ body{
   }
   .video-projeto{
     width: 310px;
-    height: 180px;
+    height: 185px;
   }
   .d-block-project{
     display: flex !important;

@@ -14,14 +14,27 @@ let Projects = [
             + "</ol>"
         +"</p>"
         +"<p>Estamos animados com o potencial que a matrícula digital tem para melhorar, juntos, podemos tornar esse processo mais simples, eficiente e acessível. Obrigado, Diran Matos.</p>",
-        video: "https://www.youtub.com/embed/WZG1lVqNHec"
+        video: "https://www.youtube.com/embed/dYbDvGqnURE?si=5aaz_qfX61hHijFU"
     },
     {
-        titulo: "Titulo projeto 2",
+        titulo: "Projeto Saúde Digital",
         img: "./assets/saude-digital.png",
-        text1: "Esse é apenas um texto aleatório para o porjeto saúde",
-        text2: "Esse é apenas um texto aleatório para o porjeto saúde",
-        video: "https://www.youtub.com/embed/-SN5bLLS4hI?si=TCkQYCCDDaXnyHIk"
+        text1: "<h4>Proposta para Implantação da Saúde Digital em Porto Seguro</h4><br>Prezados, Nos últimos anos, temos observado que a cidade de Porto Seguro enfrenta grandes desafios na área da saúde. Um dos problemas mais críticos é a demora e a dificuldade na marcação de exames, com pessoas esperando anos na fila sem conseguir atendimento. Esta situação não só compromete a saúde da população, mas também a eficiência do nosso sistema de saúde pública.<br>Com o intuito de melhorar significativamente este cenário, propomos a implantação de uma solução de Saúde Digital focada no setor de marcação de exames. A seguir, detalhamos nossa proposta:<br>Proposta para Implantação da Saúde Digital Objetivo: Implementar um sistema de Saúde Digital para otimizar a marcação de exames, reduzindo os tempos de espera e melhorando o acesso aos serviços de saúde para todos os cidadãos de Porto Seguro."
+        ,
+            text2: "<h4>Benefícios Esperados:</h4>" +
+            "<p>"
+                +"<ol>"
+                +"<li>Redução de Filas: O sistema digital permitirá que os pacientes agendem seus exames de forma rápida e eficiente, eliminando a necessidade de longas esperas. Acesso Facilitado: Com a digitalização, os pacientes poderão marcar exames de qualquer lugar, a qualquer hora, através de um portal online ou aplicativo móvel.</li>"
+                +"<li>Transparência e Informação: O sistema fornecerá informações claras sobre a disponibilidade de exames, tempos de espera e instruções específicas, aumentando a transparência e a confiança dos pacientes.</li>"
+                +"<li>Melhoria na Gestão: A plataforma permitirá um melhor gerenciamento dos recursos de saúde, otimizando a alocação de equipamentos e profissionais.</li>"
+                +"<li>Notificações e Lembretes: O sistema enviará notificações e lembretes aos pacientes sobre suas marcações, reduzindo as faltas e garantindo melhor utilização dos horários disponíveis.</li>"
+                +"</ol>"
+            +"</p>"
+            +"<h4>Portal de Agendamento Online:</h4>"
+            +"<p>Plataforma web e aplicativo móvel para marcação de exames. Interface amigável e intuitiva para facilitar o uso por todos os cidadãos. Sistema Integrado de Gestão:</p>"
+            +"<p>Software de gestão que integra hospitais, clínicas e laboratórios. Atualização em tempo real da disponibilidade de exames e horários. Central de Atendimento:</p>"
+            +"<p>Serviço de suporte telefônico para auxiliar pacientes que tenham dificuldades com a plataforma digital. Atendimento personalizado para casos urgentes ou específicos</p>",
+        video: "https://www.youtube.com/embed/EC9Jf7jySbo?si=sZZy4iuQn--bEdLR"
     },
     {
         titulo: "Titulo projeto 3",
