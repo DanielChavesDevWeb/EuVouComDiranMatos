@@ -37,10 +37,20 @@ let Projects = [
         video: "https://www.youtube.com/embed/EC9Jf7jySbo?si=sZZy4iuQn--bEdLR"
     },
     {
-        titulo: "Titulo projeto 3",
-        img: "./assets/projeto3.jpg",
-        text1: "texto1 projeto 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aliquam quae repudiandae temporibus rem atque a eum vitae, cum quaerat ratione. Necessitatibus alias, dolorum facilis totam accusamus quod vero magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem qui quas obcaecati reprehenderit, neque nisi doloribus debitis nostrum iste numquam esse sed reiciendis expedita, beatae ab eos officiis! Nulla, commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, optio perspiciatis! Eaque, recusandae at quisquam ipsam, voluptatem quasi doloremque praesentium aut facere molestias molestiae neque commodi distinctio, impedit sequi corrupti?",
-        text2: "texto2 projeto 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus nihil quam et doloremque voluptatibus dolorem animi, dolore officia repudiandae velit sunt! Quam, iure libero nihil numquam officiis laborum aliquam tempore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, praesentium! Sapiente atque placeat autem ab cumque, voluptate alias possimus quidem quo? Ad, eos delectus! Voluptatum maiores laborum necessitatibus sint ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sunt ea animi nihil et officiis consequatur facilis saepe, recusandae quisquam. Quam dicta incidunt reiciendis explicabo animi assumenda doloremque labore voluptas!",
+        titulo: "Projeto Horta Escolar",
+        img: "./assets/horta-escolar.png",
+        text1: "<h4>Proposta de Criação de Hortas nos Canteiros das Escolas</h4><br><p>A implementação de hortas escolares é uma iniciativa que traz inúmeros benefícios educacionais, ambientais e sociais. Propomos a criação de hortas nos canteiros das escolas para promover a educação ambiental, a alimentação saudável e a integração comunitária.</p>"
+               +"<h4>Objetivos</h4>"
+               +"<ul>"
+               +"<li>Educação Ambiental: Ensinar os alunos sobre a importância da agricultura sustentável, ecologia e a origem dos alimentos.</li>"
+               +"<li>Alimentação Saudável: Incentivar hábitos alimentares saudáveis através do cultivo e consumo de vegetais frescos.</li>"
+               +"</ul>",
+        text2: "<ul>"
+               +"<li>Desenvolvimento de Habilidades: Desenvolver habilidades práticas em jardinagem, trabalho em equipe e responsabilidade.</li>"
+               +"<li>Integração Comunitária: Fomentar a participação de pais, professores e membros da comunidade no projeto, fortalecendo os laços comunitários.</li>"
+               +"</ul>"
+               +"<h4>Conclusão</h4>"
+               +"<p>A criação de hortas nos canteiros das escolas é uma iniciativa enriquecedora que beneficia alunos, professores e a comunidade em geral. Esta proposta visa não apenas melhorar a educação ambiental, mas também promover a saúde e a integração social.</p>",
         video: "https://www.youtub.com/embed/5XEKoy3ULLg?si=3SVL4YXX3BTGikVA"
     }
 ]
