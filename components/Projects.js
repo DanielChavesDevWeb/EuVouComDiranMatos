@@ -51,7 +51,7 @@ let Projects = [
                +"</ul>"
                +"<h4>Conclusão</h4>"
                +"<p>A criação de hortas nos canteiros das escolas é uma iniciativa enriquecedora que beneficia alunos, professores e a comunidade em geral. Esta proposta visa não apenas melhorar a educação ambiental, mas também promover a saúde e a integração social.</p>",
-        video: "https://www.youtub.com/embed/5XEKoy3ULLg?si=3SVL4YXX3BTGikVA"
+        video: ""
     }
 ]
 
